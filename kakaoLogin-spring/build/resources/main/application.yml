@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+kakao:
+  authUrl: https://kauth.kakao.com/oauth/token
+  userApiUrl: https://kapi.kakao.com/v2/user/me
+  restapiKey: 9cc2a09d65ff48ddf1f2da3d2ff03e43
+  redirectUrl: http://localhost:8080/callback
+
+logging:
+  level:
+    com.example.kakaologin: debug
